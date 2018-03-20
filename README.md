@@ -1,10 +1,13 @@
 # Mychat
-Mychat：基于 Socket.io 的即时聊天通信
+基于 nodejs、vuejs、socket.io 的即时聊天通信应用 Demo。
 
 ### use:
-    npm install
 
-    cd server
-    node app.js
+```bash
+npm install
 
-    open web/index.html
+npm run server  
+npm run web
+```
+
+![](./_image/16520827112133151.png)
