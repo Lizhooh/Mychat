@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "node ./bin/www"
+        "web": "serve ./web/ -p 4000",
+        "server": "node ./server/app.js"
     },
     "dependencies": {
         "art-template": "^3.0.3",
@@ -11,6 +12,7 @@
         "colors": "^1.1.2",
         "express": "~4.13.4",
         "morgan": "~1.7.0",
+        "serve": "^6.5.3",
         "serve-favicon": "~2.3.0",
         "socket.io": "^1.5.1"
     }
